@@ -16,7 +16,7 @@ var (
 		"Belgeler":    {".pdf", ".doc", ".docx", ".xls", ".xlsx", ".ppt", ".pptx", ".txt", ".odt", ".rtf", ".csv"},
 		"Kurulumlar":  {".exe", ".msi", ".zip", ".rar", ".7z", ".tar", ".gz", ".deb", ".rpm"},
 		"Müzik":       {".mp3", ".wav", ".flac", ".aac", ".ogg", ".wma", ".m4a"},
-		"Kodlar":      {".go", ".py", ".js", ".ts", ".html", ".css", ".java", ".c", ".cpp", ".cs", ".json", ".xml", ".sh", ".bat"},
+		"Kodlar":      {".go", ".py", ".js", ".ts", ".html", ".css", ".java", ".c", ".cpp", ".cs", ".json", ".xml", ".sh", ".bat", ".jar"},
 		"Tasarımlar":  {".psd", ".xd", ".fig", ".sketch", ".ai", ".indd"},
 		"E-kitaplar":  {".epub", ".mobi", ".azw3", ".fb2"},
 		"Disk Kalıpları": {".iso", ".img", ".bin", ".cue"},
