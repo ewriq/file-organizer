@@ -8,8 +8,6 @@ import (
 )
 
 func GetFilesByType(c fiber.Ctx) error {
-	typeName := c.Params("type")
-	fmt.Println("Type:", typeName)
 	files, err := database.GetFilesByExtension()
 	if err != nil {
 

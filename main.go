@@ -26,7 +26,7 @@ func main() {
 	app.Get("/", handler.Home)
 
 	//app.Get("/api/v1/files", handler.GetFiles)
-	app.Get("/api/v1/files/:id", handler.GetFilesByType)
+	app.Get("/api/v1/files/", handler.GetFilesByType)
 	//app.Post("/api/v1/files/delete", handler.DeleteFile)
 
 	go database.Connect()
